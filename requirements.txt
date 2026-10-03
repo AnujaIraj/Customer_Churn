@@ -1,0 +1,46 @@
+# Customer Churn Prediction — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Data Processing & Analysis
+pandas==2.0.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Machine Learning
+scikit-learn==1.3.0
+
+# Statistics
+scipy==1.11.2
+statsmodels==0.14.0
+
+# Jupyter Notebook
+jupyter==1.0.0
+ipython==8.15.0
+
+# Utility
+python-dotenv==1.0.0
+
+# Optional: For Power BI export
+openpyxl==3.1.2
+
+# Optional: For advanced analytics
+xgboost==2.0.0  # For gradient boosting comparison
+lightgbm==4.0.0  # For alternative gradient boosting
+
+# Optional: For hyperparameter tuning
+optuna==3.13.0
+
+# Optional: For data quality checks
+great-expectations==0.17.11
+
+# Optional: For API/automation
+requests==2.31.0
+
+# Development tools
+black==23.9.1  # Code formatting
+flake8==6.1.0  # Linting
+pylint==2.17.5  # Static analysis
+pytest==7.4.2  # Testing
